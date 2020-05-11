@@ -44,8 +44,9 @@ body {
 .header__title {
     color: white;
     font-family: 'Monserrat', sans-serif;
-    font-size: 45px;
+    font-size: 42px;
     margin: 0;
+    text-align: center;
 }
 
 .header__descr {
@@ -253,7 +254,7 @@ body {
 }
 
 .step__icon {
-    font-size: 150px;
+    font-size: 110px;
     margin-bottom: 15px;
     color: var(--icon-blue);
 }
@@ -279,4 +280,156 @@ body {
 
 .second__separator > svg {
     margin-bottom: -8px;
+}
+
+.section__comments {
+    font-family: 'Monserrat', sans-serif;
+    padding: 1em 2em;
+}
+
+.comments__title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3em;
+    padding: 0 1em;
+}
+
+.comment__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+.social__wrapper {
+    display: flex;
+}
+
+.avatar__wrapper {
+    height: 50px;
+    min-width: 50px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.avatar__wrapper > img {
+    height: 50px;
+    width: auto;
+}
+
+.descr__name {
+    font-size: 13px;
+}
+
+.descr__name > i {
+    color: var(--button-primary);
+    margin-left: 5px;
+}
+
+.descr__date {
+    color: var(--text-clients);
+    font-size: 11px;
+}
+
+.actions {
+    margin-left: auto;
+}
+
+.content__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content__starts {
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.content__text {
+    font-size: 13px;
+}
+
+.comments__more--text {
+    text-align: center;
+}
+
+.comments__facebook--wrapper {
+    display: flex;
+    justify-content: center;
+    max-height: 50px;
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+
+.facebook__logo {
+    height: auto;
+    max-width: 140px;
+}
+
+.section__claim {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Monserrat', sans-serif;
+}
+
+.claim__banner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+}
+
+.claim__banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../media/airport_2_small.jpg');
+    background-position: center;
+    filter: brightness(40%) ;
+    z-index: 0;
+}
+
+.claim__title {
+    color: white;
+    z-index: 5;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.claim__banner .button {
+    margin-top: auto;
+}
+
+.logo__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.claim__logo {
+    font-size: 45px;
+    margin-right: 15px;
+    color: var(--icon-blue);
+}
+
+.logo__text {
+    color: #777;
+    font-size: 20px;
+}
+
+footer {
+    font-family: 'Monserrat', sans-serif;
+    color: #777;
+    text-align: right;
+    padding: 1em 2em;
 }
